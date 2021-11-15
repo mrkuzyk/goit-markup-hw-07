@@ -39,10 +39,10 @@
   padding-left: 42px;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form-input:focus {
-  border: 1px solid var(--accent-color);
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .modal-form-icon {
@@ -53,10 +53,10 @@
 
   fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form-input:focus + .modal-form-icon {
-  fill: var(--accent-color);
+  .modal-form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-form-coments {
@@ -72,22 +72,22 @@
 
   resize: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+
+  &::placeholder {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .modal-form-label.textarea-lebel {
   margin-bottom: 20px;
-}
-
-.modal-form-coments:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.modal-form-coments::placeholder {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-policy {
@@ -102,30 +102,30 @@
   justify-content: center;
 
   margin-bottom: 30px;
-}
 
-.modal-policy::before {
-  content: '';
-  display: block;
-  width: 16px;
-  height: 15px;
-  border: 1px solid #212121;
-  border-radius: 4px;
+  &::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+    border-radius: 4px;
 
-  cursor: pointer;
-  margin-right: 7px;
+    cursor: pointer;
+    margin-right: 7px;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.modal-form-checkbox:checked + .modal-policy::before {
-  border-radius: 2px;
-  border-color: var(--accent-color);
-  background-image: url(../images/icon-check.svg);
-  background-size: cover;
-  background-origin: border-box;
+  .modal-form-checkbox:checked + &::before {
+    border-radius: 2px;
+    border-color: var(--accent-color);
+    background-image: url(../images/icon-check.svg);
+    background-size: cover;
+    background-origin: border-box;
+  }
 }
 
 .modal-form-btn {

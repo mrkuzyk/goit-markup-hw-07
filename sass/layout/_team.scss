@@ -60,13 +60,13 @@
   width: 44px;
   height: 44px;
   margin-left: 10px;
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
-.social-item:first-child {
-  margin-left: 0;
-}
-
-.social-link {
+.social-item .social-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
