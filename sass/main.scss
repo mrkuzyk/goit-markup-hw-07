@@ -3,7 +3,22 @@
 @import './utils/visually-hidden';
 
 // BASE
+@import './base/common';
 
-// COMPONENTS
+// COMPONEN
+@import './components/conteiner';
+@import './components/btn';
+@import './components/tittle';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
 
-// LAYOUT
+// LAYOU;
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/than';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footers';
+@import './layout/project';
