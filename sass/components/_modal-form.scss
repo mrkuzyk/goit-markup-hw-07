@@ -2,10 +2,12 @@
 }
 
 .modal-form-head {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(700, 20px, 24px);
+
+  // font-weight: bold;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
 
