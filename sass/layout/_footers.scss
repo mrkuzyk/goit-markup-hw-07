@@ -67,10 +67,7 @@
 }
 
 .footer-social-text {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(bold, 14px, 1.14);
   text-transform: uppercase;
   color: var(--header-color);
   margin-bottom: 20px;
@@ -118,10 +115,7 @@
 }
 
 .footer-form-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(bold, 14px, 1.14);
   text-transform: uppercase;
   color: var(--header-color);
 
@@ -147,10 +141,7 @@
   padding-left: 16px;
 
   &::placeholder {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
+    @include font(normal, 16px, 1.25);
     color: rgba(255, 255, 255, 0.6);
   }
 }
@@ -159,10 +150,7 @@
   width: 200px;
   height: 50px;
 
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include font(bold, 16px, 1.87, 0.06em);
   display: flex;
   align-items: center;
   text-align: center;

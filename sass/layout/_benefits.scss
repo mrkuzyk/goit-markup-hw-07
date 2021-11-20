@@ -28,20 +28,14 @@
 }
 
 .benefits__caption {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  @include font(bold, 14px, 1.14);
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
 
 .benefits__text {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(normal, 14px, 1.71);
   color: var(--secondary-text-color);
   width: 270px;
 }

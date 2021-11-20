@@ -18,10 +18,7 @@
 .project-btn {
   font-family: inherit;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.62);
   text-align: center;
   color: var(--primary-text-color);
   padding: 6px 22px;
@@ -72,10 +69,7 @@
 }
 
 .project-link-text {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font(normal, 18px, 1.56);
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
@@ -106,18 +100,12 @@
 }
 
 .project-caption {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(bold, 18px, 2, 0.06em);
   color: var(--primary-text-color);
   margin-bottom: 4px;
 }
 
 .project-text {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  @include font(normal, 16px, 1.87);
   color: var(--secondary-text-color);
 }

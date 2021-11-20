@@ -2,12 +2,7 @@
 }
 
 .modal-form-head {
-  @include font(700, 20px, 24px);
-
-  // font-weight: bold;
-  // font-size: 20px;
-  // line-height: 1.15;
-  // letter-spacing: 0.03em;
+  @include font(bold, 20px, 1.15);
   text-align: center;
   color: var(--title-color);
 
@@ -15,10 +10,7 @@
 }
 
 .modal-form-label {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(normal, 12px, 1.17, $ls: 0.01em);
   color: var(--secondary-text-color);
   display: block;
 
@@ -80,10 +72,7 @@
   }
 
   &::placeholder {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font(normal, 12px, 1.17, $ls: 0.01em);
     color: rgba(117, 117, 117, 0.5);
   }
 }
@@ -93,10 +82,7 @@
 }
 
 .modal-policy {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(normal, 14px, 1.71);
   color: #757575;
 
   display: flex;
@@ -135,10 +121,7 @@
   height: 50px;
   margin: 0 auto;
 
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @include font(bold, 16px, 1.87, 0.06em);
   display: flex;
   align-items: center;
   text-align: center;

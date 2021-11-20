@@ -133,9 +133,10 @@ img {
 }
 
 .modal-form-head {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-color);
   margin-bottom: 12px;
@@ -406,8 +407,8 @@ header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--header-color);
   width: 696px;
@@ -422,10 +423,10 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   display: block;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
   color: var(--header-color);
   background-color: var(--accent-color);
   width: 200px;
@@ -468,7 +469,7 @@ header {
 .benefits__caption {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -512,8 +513,8 @@ header {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--header-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -565,8 +566,8 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
@@ -575,8 +576,8 @@ header {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--secondary-text-color);
   margin-bottom: 16px;
 }

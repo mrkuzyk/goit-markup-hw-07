@@ -1,8 +1,5 @@
 .title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  @include font(bold, 36px, 1.16);
   text-align: center;
   color: var(--title-color);
 }
