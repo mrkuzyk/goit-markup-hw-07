@@ -4,3 +4,8 @@
   line-height: $lh;
   letter-spacing: $ls;
 }
+
+@mixin w-h($w, $h) {
+  width: $w;
+  height: $h;
+}

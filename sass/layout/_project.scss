@@ -21,6 +21,7 @@
   @include font(500, 16px, 1.62);
   text-align: center;
   color: var(--primary-text-color);
+
   padding: 6px 22px;
   background-color: #f5f4fa;
   border: 1px;
@@ -77,8 +78,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  @include w-h(100%, 100%);
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: 250ms;

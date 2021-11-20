@@ -13,8 +13,7 @@
 }
 
 .client__item {
-  width: 170px;
-  height: 92px;
+  @include w-h(170px, 92px);
   /* padding: 16px 32px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -28,8 +27,7 @@
 
 .client__link {
   display: flex;
-  width: 100%;
-  height: 100%;
+  @include w-h(100%, 100%);
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;

@@ -53,8 +53,7 @@ header {
 
   &.curent::after {
     content: '';
-    width: 100%;
-    height: 4px;
+    @include w-h(100%, 4px);
     display: block;
     position: absolute;
     bottom: -32px;

@@ -17,8 +17,7 @@
 .modal-btn {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 30px;
-  height: 30px;
+  @include w-h(30px, 30px);
   border-radius: 50%;
 
   position: absolute;

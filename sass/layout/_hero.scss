@@ -29,8 +29,8 @@
   text-align: center;
   color: var(--header-color);
   background-color: var(--accent-color);
-  width: 200px;
-  height: 50px;
+
+  @include w-h(200px, 50px);
   border: 1px;
   border-radius: 4px;
   margin-right: auto;
